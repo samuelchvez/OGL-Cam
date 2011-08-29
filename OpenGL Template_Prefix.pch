@@ -1,0 +1,5 @@
+//
+// Prefix header for all source files of the 'OpenGL Template' target in the 'OpenGL Template' project.
+//
+
+#include <Carbon/Carbon.h>
