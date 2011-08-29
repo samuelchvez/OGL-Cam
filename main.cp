@@ -249,10 +249,10 @@ void updateCamera(){
 	Vector3D up = cam.getUp();
 	
 	// Starts fun
-	cam.rotateView(0.0006, 0.0006, 0, 1);
-	//cam.rotateFocussed(0.0001, 0.0005, 0, 1);
-	//rot += 0.005;
-	//cam.setDistance(rot);
+	//cam.rotateView(0.0006, 0.0006, 0, 1);
+	cam.rotateFocussed(0.0001, 0.0005, 0, 1);
+	rot += 0.007;
+	cam.setDistance(rot);
 	/*cam.rotateOverZAxis(0.001);
 	;*/
 	// End fun
